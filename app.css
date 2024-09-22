@@ -1,0 +1,12 @@
+#mainNavbar .nav-link:hover{
+    text-decoration:underline ;
+}
+
+#mainNavbar{
+    letter-spacing: 0.25em;
+}
+
+*{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+}
