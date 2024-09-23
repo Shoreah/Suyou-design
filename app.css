@@ -25,3 +25,28 @@ footer .FooterText{
 .Copyright{
     font-size: 10px;
 }
+
+.firstText{
+    margin:2em 0 3em
+}
+
+.secondText{
+    margin:7em 0 10em;
+}
+
+.description{
+    font-weight: 100;
+}
+
+.pointer:hover{
+    translate: 20px;
+    transition: 0.5s;
+}
+
+@media(max-width:320px) {
+    footer .FooterText{
+        letter-spacing: 0.1em;
+        font-size: 3em;
+        font-weight: 100;
+    }
+}
