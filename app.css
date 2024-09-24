@@ -67,6 +67,21 @@ footer .FooterText{
     font-weight: 100;
 }
 
+.aboutParagraph{
+    font-weight: 100;
+    letter-spacing: 0.15em;
+}
+
+.aboutContent{
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.aboutBtn{
+    padding: 4px 20px;
+    color: white;
+    background-color: #565656;
+}
 @media(max-width:320px) {
     footer .FooterText{
         letter-spacing: 0.1em;
