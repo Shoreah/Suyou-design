@@ -38,9 +38,33 @@ footer .FooterText{
     font-weight: 100;
 }
 
+.pointer{
+    font-weight: 100;
+}
+
 .pointer:hover{
-    translate: 20px;
-    transition: 0.5s;
+    animation-delay: 1s;
+    translate: 22px;
+    transition: 0.3s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.latest{
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+.card-section{
+    border: none;
+}
+
+.card-title{
+    font-size: 0.9em;
+}
+
+.card-text{
+    font-weight: 100;
 }
 
 @media(max-width:320px) {
