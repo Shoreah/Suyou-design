@@ -1,5 +1,6 @@
-#mainNavbar .nav-link:hover{
-    text-decoration:underline ;
+.navsec:hover{
+    border-bottom: 1px solid #000;
+    width: fit-content;
 }
 
 #mainNavbar{
