@@ -62,6 +62,10 @@ footer .FooterText{
     background-color: #565656;
 }
 
+.Copyright{
+    font-size: 10px;
+}
+
 input[type="text"], textarea {
     border: none;
     outline: none;

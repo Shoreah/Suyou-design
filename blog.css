@@ -1,0 +1,28 @@
+.navsec:hover{
+    border-bottom: 1px solid #000;
+    width: fit-content;
+}
+
+#mainNavbar{
+    letter-spacing: 0.25em;
+}
+
+*{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #F4F4F4;
+}
+
+footer .FooterText{
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
+
+.Copyright{
+    font-size: 10px;
+}
