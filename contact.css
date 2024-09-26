@@ -1,34 +1,73 @@
+#mainNavbar .nav-link:hover{
+    text-decoration:underline ;
+}
+
+#mainNavbar{
+    letter-spacing: 0.25em;
+}
+
+*{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #F4F4F4;
+}
+
+footer .FooterText{
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
+
 .content{
-    padding-top: 5em;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 .contactUs{
-    letter-spacing: 0.09em;
-    padding-bottom: 4em;
-
-}
-
-.contactSub{
-    letter-spacing: 0.09em;
-    font-weight: 300;
-    padding-bottom: 0.8em;
-}
-
-.followUs{
-    letter-spacing: 0.09em;
-    font-weight: 300;
-    padding-top: 3em;
-    padding-bottom: 0.8em;
+    padding-bottom: 2em;
 }
 
 .contactParagraph{
     font-weight: 100;
     letter-spacing: 0.15em;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 }
 
-input[type="text"], input[type="password"], textarea {
+.contactSub{
+    letter-spacing: 0.09em;
+    font-weight: 400;
+    padding-bottom: 0.8em;
+}
+
+.info{
+    font-weight: 100;
+}
+
+.followUs{
+    letter-spacing: 0.09em;
+    font-weight: 400;
+    padding-top: 2em;
+    padding-bottom: 0.8em;
+}
+
+.formButton{
+    padding: 4px 20px;
+    color: white;
+    background-color: #565656;
+}
+
+input[type="text"], textarea {
     border: none;
     outline: none;
-    border-bottom: 1px solid #ccc; /* You can adjust the color and thickness of the outline */
+    border-bottom: 1px solid black; /* You can adjust the color and thickness of the outline */
+}
+
+select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
 }

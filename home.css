@@ -1,0 +1,76 @@
+#mainNavbar .nav-link:hover{
+    text-decoration:underline ;
+}
+
+#mainNavbar{
+    letter-spacing: 0.25em;
+}
+
+*{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #F4F4F4;
+}
+
+footer .FooterText{
+    letter-spacing: 0.1em;
+    font-size: 2em;
+}
+
+.Copyright{
+    font-size: 10px;
+}
+
+.firstText{
+    margin:2em 0 3em
+}
+
+.secondText{
+    margin:7em 0 10em;
+}
+
+.description{
+    font-weight: 100;
+}
+
+.pointer{
+    font-weight: 100;
+}
+
+.pointer:hover{
+    animation-delay: 1s;
+    translate: 22px;
+    transition: 0.3s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.latest{
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+.card-section{
+    border: none;
+}
+
+.card-title{
+    font-size: 0.9em;
+}
+
+.card-text{
+    font-weight: 100;
+}
+
+@media(max-width:320px) {
+    footer .FooterText{
+        letter-spacing: 0.1em;
+        font-size: 3em;
+        font-weight: 100;
+    }
+}
