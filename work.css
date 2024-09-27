@@ -32,6 +32,29 @@ footer .FooterText{
     padding-bottom: 5em;
 }
 
+.workHead{
+    padding-bottom: 5em;
+}
+
+.intro{
+    letter-spacing: 0.09em;
+    font-weight: 400;
+}
+
+.workSub{
+    letter-spacing: 0.09em;
+    font-weight: 400;
+}
+
+.yearHead{
+    letter-spacing: 0.09em;
+}
+
+.year{
+    letter-spacing: 0.09em;
+    font-weight: 100;
+}
+
 hr{
     width: 10%;
 }

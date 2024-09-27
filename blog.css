@@ -26,3 +26,42 @@ footer .FooterText{
 .Copyright{
     font-size: 10px;
 }
+
+.blog{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.first-paragraph{
+    letter-spacing: 0.09em;
+    font-size: large;
+    font-weight: 400;
+}
+
+.text-section{
+    letter-spacing: 0.09em;
+    font-weight: 100;
+}
+
+main{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.card-title{
+    font-size: 0.9em;
+}
+
+.card-text{
+    font-weight: 100;
+}
+
+.button-section{
+    padding-bottom: 6em;
+}
+
+.blogBtn{
+    padding: 4px 30px;
+    color: white;
+    background-color: #565656;
+}

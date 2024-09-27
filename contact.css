@@ -66,10 +66,11 @@ footer .FooterText{
     font-size: 10px;
 }
 
+
 input[type="text"], textarea {
     border: none;
     outline: none;
-    border-bottom: 1px solid black; /* You can adjust the color and thickness of the outline */
+    border-bottom: 1px solid black; 
 }
 
 select {
