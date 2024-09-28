@@ -38,6 +38,16 @@ footer .FooterText{
     font-weight: 400;
 }
 
+select{
+    height: 100%;
+    width: 30%;
+    border: none;
+    outline: none;
+    padding-bottom: 1em;
+    color: #565656;
+    border-bottom: 2px solid silver; 
+}
+
 .text-section{
     letter-spacing: 0.09em;
     font-weight: 100;

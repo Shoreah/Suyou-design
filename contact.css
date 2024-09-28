@@ -44,9 +44,15 @@ footer .FooterText{
     padding-bottom: 0.8em;
 }
 
+.logo{
+    display: inline;
+    color: #565656;
+}
+
 .info{
     font-weight: 100;
     letter-spacing: 0.09em;
+    color: #565656;
 }
 
 .followUs{
@@ -60,13 +66,38 @@ footer .FooterText{
     padding: 4px 20px;
     color: white;
     background-color: #565656;
+    font-weight: 100;
 }
 
 .Copyright{
     font-size: 10px;
 }
 
+.wrapper .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid silver;
+}
 
+.wrapper .input-data label{
+    pointer-events: none;
+    color: #565656;
+}
+
+select{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-bottom: 1em;
+    color: #565656;
+    border-bottom: 2px solid silver; 
+}
+
+
+/* 
 input[type="text"], textarea {
     border: none;
     outline: none;
@@ -77,4 +108,4 @@ select {
     border: none;
     outline: none;
     scroll-behavior: smooth;
-}
+} */
