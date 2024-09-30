@@ -40,7 +40,7 @@ footer .FooterText{
 
 select{
     height: 100%;
-    width: 30%;
+    width: 100%;
     border: none;
     outline: none;
     padding-bottom: 1em;
@@ -51,6 +51,7 @@ select{
 .text-section{
     letter-spacing: 0.09em;
     font-weight: 100;
+    color: grey;
 }
 
 main{
@@ -60,6 +61,12 @@ main{
 
 .card-title{
     font-size: 0.9em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.after{
+    text-align: end;
 }
 
 .card-text{
@@ -74,4 +81,27 @@ main{
     padding: 4px 30px;
     color: white;
     background-color: #565656;
+}
+
+@media(max-width:576px) {
+    .Categories{
+        padding-bottom: 1em;
+    }
+    .after{
+        text-align: start;
+    }
+    .card-title{
+        font-size: 30px;
+        letter-spacing: 0.09em;
+        font-weight: 300;
+        padding-top: 7px;
+        padding-bottom: 10px;
+        color: black;
+    }
+    .places{
+        margin-bottom: 2em;
+    }
+    .Copyright{
+        margin-bottom: 2em;
+    }
 }
