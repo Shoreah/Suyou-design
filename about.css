@@ -42,3 +42,16 @@ footer .FooterText{
     color: white;
     background-color: #565656;
 }
+
+@media(max-width:576px) {
+    .aboutContent{
+        padding-top: 3em;
+        padding-bottom: 6em;    
+    }
+    .places{
+        margin-bottom: 2em;
+    }
+    .Copyright{
+        margin-bottom: 2em;
+    }
+}
