@@ -97,15 +97,22 @@ select{
 }
 
 
-/* 
-input[type="text"], textarea {
-    border: none;
-    outline: none;
-    border-bottom: 1px solid black; 
+@media(max-width:576px) {
+    .content{
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    .contactUs{
+        padding-bottom: 10px;
+    }
+    .wrapper{
+        padding-top: 1em;
+    }
+    .places{
+        margin-bottom: 2em;
+    }
+    .Copyright{
+        margin-bottom: 2em;
+    }
 }
 
-select {
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-} */
