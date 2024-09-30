@@ -31,7 +31,7 @@ footer .FooterText{
     margin:2em 0 3em
 }
 
-.secondText{
+.second-text{
     margin:7em 0 10em;
 }
 
@@ -39,8 +39,21 @@ footer .FooterText{
     font-weight: 100;
 }
 
+.first-arrow{
+    font-weight: 100;
+}
+
+.first-arrow:hover{
+    animation-delay: 1s;
+    translate: 22px;
+    transition: 0.3s;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
 .pointer{
     font-weight: 100;
+    text-align: end;
 }
 
 .pointer:hover{
@@ -64,10 +77,31 @@ footer .FooterText{
     font-weight: 100;
 }
 
-@media(max-width:320px) {
-    footer .FooterText{
-        letter-spacing: 0.1em;
-        font-size: 3em;
-        font-weight: 100;
+@media(max-width:576px) {
+    .first-mini{
+        font-size: 25px;
+        padding-bottom: 2em;
+    }
+    .second-text{
+         margin-bottom: 2em;
+    }
+    .latest{
+        font-size: 25px;
+    }
+    .pointer{
+        text-align: start;
+        font-size: 20px;
+    }
+    .UX-heading{
+        font-size: 30px;
+        letter-spacing: 0.09em;
+        font-weight: 300;
+        color: black;
+    } 
+    .places{
+        margin-bottom: 2em;
+    }
+    .Copyright{
+        margin-bottom: 2em;
     }
 }
