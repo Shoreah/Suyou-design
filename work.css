@@ -64,3 +64,18 @@ hr{
     color: white;
     background-color: #565656;
 }
+
+@media(max-width:576px) {
+    .intro{
+        padding-bottom: 1em;
+    }
+    .image{
+        padding-bottom: 1em;
+    }
+    .places{
+        margin-bottom: 2em;
+    }
+    .Copyright{
+        margin-bottom: 2em;
+    }
+}
